@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>430</width>
+    <height>430</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>430</width>
+    <height>430</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Sans</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Count! - Settings</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="2" column="0" colspan="3">
+    <widget class="QGroupBox" name="difficultyGroupBox">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>105</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>105</height>
+      </size>
+     </property>
+     <property name="title">
+      <string>Difficulty</string>
+     </property>
+     <widget class="QRadioButton" name="easyRadioButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>28</y>
+        <width>114</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Easy</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="mediumRadioButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>53</y>
+        <width>114</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Medium</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="hardRadioButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>78</y>
+        <width>114</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hard</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="3">
+    <widget class="QGroupBox" name="languageGroupBox">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sans</family>
+      </font>
+     </property>
+     <property name="title">
+      <string>Language</string>
+     </property>
+     <widget class="QRadioButton" name="englishRadioButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>28</y>
+        <width>114</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>English</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="russianRadioButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>53</y>
+        <width>114</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Russian</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QPushButton" name="cancelPushButton">
+     <property name="text">
+      <string>Cancel</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2">
+    <widget class="QPushButton" name="savePushButton">
+     <property name="text">
+      <string>Save</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="3">
+    <widget class="QGroupBox" name="themeGroupBox">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sans</family>
+      </font>
+     </property>
+     <property name="title">
+      <string>Theme</string>
+     </property>
+     <widget class="QRadioButton" name="lightRadioButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>28</y>
+        <width>114</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Light</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="darkRadioButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>53</y>
+        <width>114</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Dark</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="0" colspan="3">
+    <widget class="QGroupBox" name="tasksAmountGroupBox">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="title">
+      <string>How many tasks in 1 game?</string>
+     </property>
+     <widget class="QDial" name="tasksDial">
+      <property name="geometry">
+       <rect>
+        <x>89</x>
+        <y>21</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="minimum">
+       <number>5</number>
+      </property>
+      <property name="maximum">
+       <number>30</number>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="tasksLCD">
+      <property name="geometry">
+       <rect>
+        <x>162</x>
+        <y>31</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="intValue" stdset="0">
+       <number>5</number>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
