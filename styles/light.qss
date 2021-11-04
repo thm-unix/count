@@ -1,0 +1,11 @@
+QMainWindow {
+  background-color: #EFEFEF;
+}
+
+QLabel,QPushButton,QMenuBar,QGroupBox {
+  color: #000000;
+}
+
+QPlainTextEdit {
+  background-color: #FFFFFF;
+}

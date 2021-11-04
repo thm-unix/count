@@ -1,0 +1,21 @@
+QMainWindow,QWidget,QMenuBar,QMenu,QLabel {
+  background-color: #33393B;
+  color: #FFFFFF;
+}
+
+QMenu::item:selected {
+  background-color: #358CC2
+}
+
+QPushButton,QMenuBar,QGroupBox {
+  color: #FFFFFF;
+}
+
+QPlainTextEdit {
+  background-color: #232729;
+  color: #FFFFFF;
+}
+
+QPushButton {
+  background-color: #282C2E;
+}
