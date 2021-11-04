@@ -13,6 +13,9 @@ This is a Python application which can help you to train your mental count skill
 3. Specify your path to the main.py in count.desktop
 <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240) none repeat scroll 0% 0%; color: rgb(68, 68, 68);">sudo cp count.desktop /usr/share/applications/</pre>
 
+## Bugs
+Please report any bugs and suggestions.
+
 ## Localization
 <b>English: </b> 100% (by <a href="https://github.com/thm-unix/">thm-unix</a>) <br> 
 <b>Russian: </b> 100% (by <a href="https://github.com/thm-unix/">thm-unix</a>) <br> 
