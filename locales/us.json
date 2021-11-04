@@ -26,5 +26,6 @@
   "savePushButton": "Save",
   "restartCountMessage": "Please restart Count! in order to apply changes.",
   "solvedMessage": "Tasks solved: ",
-  "informationTitle": "Information"
+  "informationTitle": "Information",
+  "wasBroughtToYou": "Was brought to you by: "
 }

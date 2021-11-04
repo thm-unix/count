@@ -26,5 +26,6 @@
   "savePushButton": "Сохранить",
   "restartCountMessage": "Пожалуйста, перезапустите Count!, чтобы изменения\nвступили в силу.",
   "solvedMessage": "Примеров решено: ",
-  "informationTitle": "Информация"
+  "informationTitle": "Информация",
+  "wasBroughtToYou": "Разработчик: "
 }
