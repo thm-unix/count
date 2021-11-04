@@ -7,9 +7,19 @@ from PyQt5.QtWidgets import QApplication, QWidget, QMessageBox
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QPixmap, QIcon
 from PyQt5 import uic
+from enum import Enum
 
 main_dir = os.path.abspath(__file__)[:-7]
 os.chdir(main_dir)
+
+
+class releaseData(Enum):
+    VERSION      = '0.1'
+    PRODUCT_NAME = 'Count!'
+    DEVELOPER    = 'thm'
+    EMAIL        = 'highsierra.2007@mail.ru'
+    WEBSITE      = 'https://thm-unix.github.io/'
+
 
 class App(QWidget):
     def __init__(self):
@@ -63,6 +73,13 @@ class App(QWidget):
         self.about.setWindowIcon(QIcon('assets/icon.png'))
 
         self.about.iconLabel.setPixmap(QPixmap('assets/icon.png'))
+
+        # set version
+        self.about.softwareNameLabel.setText(releaseData.PRODUCT_NAME.value)
+        self.about.versionLabel.setText('v.' + releaseData.VERSION.value)
+        self.about.developerNameLabel.setText(self.localeStrings['wasBroughtToYou'] + releaseData.DEVELOPER.value)
+        self.about.developerEmailLabel.setText(releaseData.EMAIL.value)
+        self.about.developerWebsiteLabel.setText(releaseData.WEBSITE.value)
 
         # show UI
         self.window.show()
