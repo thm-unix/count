@@ -9,14 +9,13 @@ from PyQt5.QtGui import QPixmap, QIcon
 from PyQt5 import uic
 from enum import Enum
 
-os.environ['QT_STYLE_OVERRIDE'] = 'fusion'
 
 main_dir = os.path.abspath(__file__)[:-7]
 os.chdir(main_dir)
 
 
 class releaseData(Enum):
-    VERSION      = '0.1.1'
+    VERSION      = '0.1'
     PRODUCT_NAME = 'Count!'
     DEVELOPER    = 'thm'
     EMAIL        = 'highsierra.2007@mail.ru'
