@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Count!
+Type=Application
+Exec=/home/thm/software/Count/main.py
+Icon=/home/thm/software/Count/assets/icon.png
+Terminal=false
