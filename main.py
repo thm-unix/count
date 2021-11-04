@@ -8,8 +8,8 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QPixmap, QIcon
 from PyQt5 import uic
 
-#os.environ['QT_STYLE_OVERRIDE'] = 'fusion'
-
+main_dir = os.path.abspath(__file__)[:-7]
+os.chdir(main_dir)
 
 class App(QWidget):
     def __init__(self):
