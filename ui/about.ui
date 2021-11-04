@@ -140,7 +140,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLabel" name="versionLabel_2">
+  <widget class="QLabel" name="licenseLabel">
    <property name="geometry">
     <rect>
      <x>20</x>
